@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Secular One', sans-serif;
+            box-sizing: border-box;
+        }
+        a {
+            text-decoration: none;
+        }
+        .cabecalho {
+            background-color: #6e5ddf;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0 ;
+            margin: auto 100px;
+            
+            
+            
+        }
+        .titulo {
+            font-size: 3em;
+            color: white;
+            padding: 5px 30px ;
+            display: inline-block;
+            text-align: center;
+            position: relative;
+            left: 50px;
+            
+
+        }
+        .titulo:hover{
+            padding: 0 25px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #3d2f94;
+            border-radius: 10px;
+        }
+        .menu {
+            position: relative;
+            right: 100px;
+            font-size: 1.3em;
+            
+            
+        }
+        .menu a {
+            color: white;
+            padding: 10px 20px;
+            transition: 0.2s;
+            
+        }
+        
+        
+        .menu a:hover {
+            background-color: white;
+            color: #6e5ddf;
+            border-radius: 10px;
+        
+        }
+
+        .secao h1 {
+            font-size: 2.5em;
+            padding: 50px 140px;
+        }
+        .secao .artigo {
+            display: flex;
+            justify-content: right;
+
+        }
+        .artigo p {
+            text-align: justify;
+        }

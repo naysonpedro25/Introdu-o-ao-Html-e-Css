@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url(PressStart2P-Regular.ttf);
+}
+
+header {
+    background-color: #0DE785;
+    height: 110px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    font-weight: 700;
+}
+
+#button{
+    background-color: #F3332D;
+    height: 80px;
+    line-height: 80px;
+    display: inline-block;
+    font-size: 26px;
+    padding-left: 28px;
+    padding-right: 28px;
+    font-family: 'Press Start 2P' Arial, Helvetica, sans-serif;
+    text-shadow: 3px 4px 0px #b42520;
+
+    transition: 0.4s;
+    /* margin:0 0 0 40px; */
+    
+
+    position: relative;
+    left: -30px;
+}
+
+#button:hover {
+    position: relative;
+    top: -2px;
+    transition: 0.4s;
+    text-shadow: 3px 4px 0px #b42520;
+    box-shadow: 6px 6px 0 #000;
+}
+
+img {
+    
+    height: 100px;
+    right: 100px;
+}

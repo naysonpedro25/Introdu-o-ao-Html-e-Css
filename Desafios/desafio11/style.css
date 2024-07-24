@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+}
+:root{
+    --cor0: #030303;
+    --cor1: #fff;
+}
+.cabecalho{
+    background-color: var(--cor0);
+    text-align: center;
+    color: var(--cor1);
+
+}
+.cabecalho > h1{
+    padding-top:50px;
+    font-size: 10vw;
+    font-family: 'Passion One', cursive;
+    font-variant: small-caps;/* Pesquisar dpois*/
+}
+.navegacao p {
+    padding: 0px 0 40px;
+    font-family: 'Arimo',sans-serif;
+    font-size: 2vh;
+    
+}
+.navegacao  a {
+    text-decoration: none;
+    color: var(--cor1);
+    font-weight: bold;
+}
+.navegacao a:hover{
+    text-decoration: underline;
+}
+section > p  {
+    
+    font-size: 3.2vw;
+    font-family:'Sriracha', cursive;
+    line-height: 2em;
+    padding: 10vh 0 15vh 5vh;
+}
+
+.paragrafoimg{
+    
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:right bottom ;
+    background-repeat: no-repeat;
+    box-shadow: 6px 6px 13px 5px rgba(0, 0, 0, 0.473);
+
+    color: var(--cor1);
+}
+.paragrafoimg > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 2vh;
+    margin: 10vh;
+}
+#fundo1 {
+    background-image: url("pacote-d012/imagens/background001.jpg");
+}
+#fundo2{
+    background-image: url("pacote-d012/imagens/background002.jpg");
+}
+.rodape,.rodape >p> a{
+    background-color: var(--cor0);
+    padding: 2vh 0 2vh 0;
+    text-align: center;
+    color: var(--cor1);
+    font-family:'Arimo',cursive ;
+    text-decoration: none;
+
+}
+.rodape > p > a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,25 @@
+@charset "UTF-8"; /*Regra @charset paraa que n tenha erro com assentuaçãp*/
+body {
+    background-color: rgb(177, 177, 177);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+}
+
+h1 {
+    color: rgb(56, 56, 56);
+    font-size: 50px;
+}
+h2 {
+    color: rgb(82, 81, 81);
+}
+p {
+    text-align: justify;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+a {
+    color: rgb(17, 0, 255);
+    text-decoration:underline ;
+    font-style: italic;
+}
